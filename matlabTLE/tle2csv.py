@@ -29,7 +29,7 @@ while line:
                      'epoch_day': lineOne[3][2:],
                      'inclination': lineTwo[2],
                      'right_asc': lineTwo[3],
-                     'eccentricity': lineTwo[4],
+                     'eccentricity': '0.' + lineTwo[4],
                      'arg_perigee': lineTwo[5],
                      'mean_anomoly': lineTwo[6],
                      'mean_motion': lineTwo[7]}
